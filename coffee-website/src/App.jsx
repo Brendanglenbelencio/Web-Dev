@@ -9,7 +9,8 @@ import HeroSection from './HeroSection/HeroSection';
 // - Change the color of the nav links and create animation for it's hover and visited state
 // - Sign-in link should have an orange button like padding or have different font at least
 // - Create draft for Hero Section
-
+// - Fix the CSS of the Hero Section
+// - Learn the basics of Github
 
 const App = () => {
   return (
