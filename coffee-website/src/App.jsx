@@ -11,6 +11,7 @@ import HeroSection from './HeroSection/HeroSection';
 // - Create draft for Hero Section
 // - Fix the CSS of the Hero Section
 // - Learn the basics of Github
+// - this is to indicate that this is the first branch of the file
 
 const App = () => {
   return (
