@@ -24,6 +24,8 @@ function Navigation() {
       </Container>
     </Navbar>
 
+    {/*Below is the Code for the Nav Bar with bav links positioned to the right side of the NavBar*/}
+
     <Navbar expand="lg" className="bg-body-tertiary" bg="light" data-bs-theme="light">
       <Container>
         <Navbar.Brand href="#home"><img src={storeLogo} alt="Store"></img></Navbar.Brand>
