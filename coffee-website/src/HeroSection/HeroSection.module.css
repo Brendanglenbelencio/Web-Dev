@@ -1,5 +1,45 @@
-.header{
-    color: burlywood;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
+
+.headerFont{
+    color: rgba(133, 76, 12, 0.849);
+    font-size: 32px;
+    font-family: Tahoma, sans-serif;
+}
+
+.containerColor{
+    background-color: rgb(250, 110, 45);
+    height: 70vh;
+    padding: 30px;
+
+}
+
+.containerBackground{
+    background-image: linear-gradient(rgba(204, 180, 135, 0.548), rgba(204, 180, 135, 0.548)), url(../assets/hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+
+}
+
+@media (max-width: 768px){
+    .containerBackground {
+        background-size: contain;
+        background-size: cover;
+    }
+}
+
+.heroContent{
+    color: rgb(143, 72, 14);
+    font-size: 14px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.heroButton{
+    margin-top: 10px;
+    background-color: white;
+    color: rgb(143, 72, 14);
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1rem;
 }

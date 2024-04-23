@@ -1,0 +1,41 @@
+.carouselTitle{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 768px){
+    .carouselTitle {
+        font-size: 1.5rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.parentDiv{
+    background-color: rgb(240, 240, 240);
+}
+
+.carouselContainer {
+    margin-bottom: 40px;
+    width: 60%;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .carouselContainer {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+}
+
+.carouselGradient{
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        rgba(61, 41, 3, 0.514),  rgba(61, 41, 3, 0.514)
+    );
+}

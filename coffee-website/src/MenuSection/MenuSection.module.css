@@ -1,0 +1,50 @@
+.menuDiv{
+    background-color: bisque;
+
+}
+
+.menuContainer {
+    margin-top: 30px;
+}
+
+.menuHeader {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width: 768px) {
+    .menuHeader {
+        font-size: 1.25rem;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
+.cardDiv {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cardIcon {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.cardButton{
+    margin-top: 10px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(143, 72, 14);
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1rem;
+}
+
+.cardButton:hover{
+    background-color: rgb(255, 210, 159);
+    color: rgb(143, 72, 14);
+}

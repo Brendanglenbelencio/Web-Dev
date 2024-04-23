@@ -1,27 +1,24 @@
 import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
-import Image from 'react-bootstrap/Image';
-import heroPicture from '../assets/hero-picture.png'
 import styles from './HeroSection.module.css'
 
 
 const HeroSection = () => {
   return (
     <>
-        <Container>
-            <Row>
-                <Col xs={8} className="d-flex justify-content-center align-items-center">
-                    <p className={styles.header}>EXPERIENCE THE TASTE OF HIGH QUALITY AND INEXPENSIVE COFFEE</p>
-                    <Button variant='warning' size='lg'>Order Now</Button>
-                </Col>
-                <Col xs={4}><Image src={heroPicture} fluid/></Col>
-            </Row>
-
-        </Container>
+      <div className={`d-flex flex-column justify-content-center align-items-center text-center ${styles.containerBackground}`}>
+          <Container>
+            <div>
+              <h1 className={styles.headerFont}>EXPERIENCE THE TASTE OF HIGH QUALITY AND INEXPENSIVE COFFEE</h1>
+              <p className={styles.heroContent}>UP & Up Coffee is a Community-focused coffee shop that offers affordable, premium, freshly made to-go coffee drinks.
+                 Start your Monday with a cup of ambition and a dash of determination. Embrace the warmth of possibility and aroma of opportunity.</p>
+              <Button className={styles.heroButton} variant="light" size='md'>Order Now</Button>
+            </div>
+          </Container>
+      </div>
     </>
+    
   );
 }
 
